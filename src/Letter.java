@@ -1,8 +1,10 @@
 abstract class Letter {
 
     String endLine;
+    int width;
 
     Letter(String direction) {
+        this.width = 7; //default
         if (direction.equals("V")) {
             this.endLine = "\n";
         } else {

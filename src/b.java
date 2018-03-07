@@ -6,31 +6,31 @@ public class b extends Letter {
 
     @Override
     String drawPart1() {
-        return " _";
+        return " _"+endLine+endLine;
     }
 
     @Override
     String drawPart2() {
-        return "| |";
+        return "| |"+endLine+endLine;
     }
 
     @Override
     String drawPart3() {
-        return "| |_";
+        return "| |_"+endLine;
     }
 
     @Override
     String drawPart4() {
-        return "|  _ \\";
+        return "|  _ \\"+endLine;
     }
 
     @Override
     String drawPart5() {
-        return "| |_| |";
+        return "| |_| |" + endLine;
     }
 
     @Override
     String drawPart6() {
-        return "|____/";
+        return "|____/" + endLine;
     }
 }

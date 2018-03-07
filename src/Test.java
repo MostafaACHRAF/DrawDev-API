@@ -4,12 +4,20 @@ public class Test {
         A letterA = new A("H");
         B letterB = new B("H");
         b letterb = new b("H");
+        C letterC = new C("H");
+        D letterD = new D("H");
+        d letterd = new d("H");
+        E letterE = new E("H");
         int index = 1;
         for (int i = index; i <= 6 ; i++) {
-            System.out.print(lettera.drawH(i));
             System.out.print(letterA.drawH(i));
             System.out.print(letterB.drawH(i));
             System.out.print(letterb.drawH(i));
+            System.out.print(letterC.drawH(i));
+            System.out.print(lettera.drawH(i));
+            System.out.print(letterE.drawH(i));
+            System.out.print(letterd.drawH(i));
+            System.out.print(letterD.drawH(i));
             System.out.println("");
         }
 
