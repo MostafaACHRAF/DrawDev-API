@@ -9,6 +9,7 @@ public class Test {
         d letterd = new d("H");
         E letterE = new E("H");
         e lettere = new e("H");
+        F letterF = new F("H");
         int index = 1;
         for (int i = index; i <= 6 ; i++) {
             System.out.print(letterA.drawH(i));
@@ -18,8 +19,9 @@ public class Test {
             System.out.print(lettera.drawH(i));
             System.out.print(letterd.drawH(i));
             System.out.print(lettere.drawH(i));
-            System.out.print(letterE.drawH(i));
             System.out.print(letterD.drawH(i));
+            System.out.print(letterE.drawH(i));
+            System.out.print(letterF.drawH(i));
             System.out.println("");
         }
 

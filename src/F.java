@@ -1,36 +1,36 @@
-class e extends Letter {
+class F extends Letter {
 
-    e(String direction) {
+    F(String direction) {
         super(direction);
     }
 
     @Override
     String drawPart1() {
-        return " ____ " + endLine;
+        return " _____" + endLine;
     }
 
     @Override
     String drawPart2() {
-        return "/  _ \\" + endLine;
+        return "|  ___|" + endLine;
     }
 
     @Override
     String drawPart3() {
-        return "| |_| |"+endLine;
+        return "| |___" + endLine;
     }
 
     @Override
     String drawPart4() {
-        return "|  __/" + endLine;
+        return "|  ___|" + endLine;
     }
 
     @Override
     String drawPart5() {
-        return "\\ \\___" + endLine;
+        return "| |" + endLine + endLine;
     }
 
     @Override
     String drawPart6() {
-        return " \\____/" + endLine;
+        return "|_|" + endLine + endLine;
     }
 }

@@ -6,31 +6,31 @@ class D extends Letter {
 
     @Override
     String drawPart1() {
-        return " _____" + endLine;
+        return " ____" + endLine;
     }
 
     @Override
     String drawPart2() {
-        return "|  __ \\" + endLine;
+        return "|  _ \\" + endLine;
     }
 
     @Override
     String drawPart3() {
-        return "| |  \\ \\" + endLine;
+        return "| | \\ \\" + endLine;
     }
 
     @Override
     String drawPart4() {
-        return "| |   | |" + endLine;
+        return "| | | |" + endLine;
     }
 
     @Override
     String drawPart5() {
-        return "| |__/ /" + endLine;
+        return "| |_/ /" + endLine;
     }
 
     @Override
     String drawPart6() {
-        return "|____ /" + endLine;
+        return "|___ /" + endLine;
     }
 }

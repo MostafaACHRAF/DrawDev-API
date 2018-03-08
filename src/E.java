@@ -1,4 +1,4 @@
-public class E extends Letter {
+class E extends Letter {
 
     E(String direction) {
         super(direction);
