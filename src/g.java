@@ -1,17 +1,17 @@
-class B extends Letter {
+class g extends Letter {
 
-    B(String direction) {
+    g(String direction) {
         super(direction);
     }
 
     @Override
     String drawPart1() {
-        return " ____" + endLine;
+        return " _____" + endLine;
     }
 
     @Override
     String drawPart2() {
-        return "|  _ \\" + endLine;
+        return "/  _  \\" + endLine;
     }
 
     @Override
@@ -21,16 +21,16 @@ class B extends Letter {
 
     @Override
     String drawPart4() {
-        return "|  _ <" + endLine;
+        return "\\___  |" + endLine;
     }
 
     @Override
     String drawPart5() {
-        return "| (_) |" + endLine;
+        return " ___) |" + endLine;
     }
 
     @Override
     String drawPart6() {
-        return "|____/" + endLine;
+        return "(_____/" + endLine;
     }
 }

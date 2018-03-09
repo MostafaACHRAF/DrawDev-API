@@ -26,7 +26,7 @@ class a extends Letter {
 
     @Override
     String drawPart5() {
-        return "| |_| |" + endLine;
+        return "| (_) |" + endLine;
     }
 
     @Override
