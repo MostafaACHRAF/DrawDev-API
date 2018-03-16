@@ -19,6 +19,7 @@ public class Test {
         J letterJ = new J("H");
         i letteri = new i("H");
         j letterj = new j("H");
+        L letterL = new L("H");
         k letterk = new k("H");
         K letterK = new K("H");
         int index = 1;
@@ -43,6 +44,7 @@ public class Test {
             System.out.print(letterI.drawH(i));
             System.out.print(letterK.drawH(i));
             System.out.print(letteri.drawH(i));
+            System.out.print(letterL.drawH(i));
             System.out.print(letterk.drawH(i));
             System.out.println("");
         }
